@@ -17,8 +17,8 @@
                         <table class="table table-bordered">
                             <thead>
                               <tr>
-                                <th scope="col">GAMBAR</th>
-                                <th scope="col">JUDUL</th>
+                                <th scope="col">Kategori</th>
+                                <th scope="col">Jumlah Data</th>
                               </tr>
                             </thead>
                             <tbody>
