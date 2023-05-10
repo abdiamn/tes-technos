@@ -2,10 +2,10 @@
 
 namespace App\Http\Controllers;
 
-//import Model "Kategori"
+//import Model kategori
 use App\Models\kategori;
 
-//import Model "Data"
+//import Model "data
 use App\Models\data;
 
 //return type View
@@ -15,15 +15,15 @@ use Illuminate\Http\Request;
 
 class TestController extends Controller
 {
-    public function index(): View
+    public function index(): view
     {
-        //get data from table "kategori"
+        //get data from table kategori
         $kategori = kategori::all();
 
-        //get data from table "data"
+        //get data from table data
         $data = data::all();
 
-        //return view "test" with data
+        //return view test.blade.php
         return view('test', compact('kategori', 'data'));
     }
 }
